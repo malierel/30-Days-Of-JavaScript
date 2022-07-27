@@ -140,7 +140,7 @@ Set(5) {"Google", "Facebook", "Amazon", "Oracle", "Microsoft"}
 
 ```
 
-### Deleting an element a set
+### Deleting an element from a set
 
 We can delete an element from a set using a delete method.
 
@@ -340,7 +340,7 @@ console.log(countriesMap.get('Finland'))
 Helsinki
 ```
 
-### Checking key in Map
+### Checking a key in a Map
 
 Check if a key exists in a map using _has_ method. It returns _true_ or _false_.
 
@@ -405,7 +405,7 @@ const countries = ['Finland', 'Sweden', 'Norway']
 
 ### Exercises:Level 3
 
-1. How many languages are there in the countries object file.
+1. How many languages are there in the countries object file?
 
 1. \*\*\* Use the countries data to find the 10 most spoken languages:
 
