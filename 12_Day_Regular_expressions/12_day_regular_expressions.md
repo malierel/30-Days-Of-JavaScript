@@ -168,7 +168,7 @@ console.log(result)
 *replace()*: Executes a search for a match in a string, and replaces the matched substring with a replacement substring.
 
 ```js
-const txt = 'Python is the most beautiful language that a human begin has ever created.\
+const txt = 'Python is the most beautiful language that a human being has ever created.\
 I recommend python for a first programming language'
 
 matchReplaced = txt.replace(/Python|python/, 'JavaScript')
@@ -176,11 +176,11 @@ console.log(matchReplaced)
 ```
 
 ```sh
-JavaScript is the most beautiful language that a human begin has ever created.I recommend python for a first programming language
+JavaScript is the most beautiful language that a human being has ever created.I recommend python for a first programming language
 ```
 
 ```js
-const txt = 'Python is the most beautiful language that a human begin has ever created.\
+const txt = 'Python is the most beautiful language that a human being has ever created.\
 I recommend python for a first programming language'
 
 matchReplaced = txt.replace(/Python|python/g, 'JavaScript')
@@ -188,11 +188,11 @@ console.log(matchReplaced)
 ```
 
 ```sh
-JavaScript is the most beautiful language that a human begin has ever created.I recommend JavaScript for a first programming language
+JavaScript is the most beautiful language that a human being has ever created.I recommend JavaScript for a first programming language
 ```
 
 ```js
-const txt = 'Python is the most beautiful language that a human begin has ever created.\
+const txt = 'Python is the most beautiful language that a human being has ever created.\
 I recommend python for a first programming language'
 
 matchReplaced = txt.replace(/Python/gi, 'JavaScript')
@@ -200,7 +200,7 @@ console.log(matchReplaced)
 ```
 
 ```sh
-JavaScript is the most beautiful language that a human begin has ever created.I recommend JavaScript for a first programming language
+JavaScript is the most beautiful language that a human being has ever created. I recommend JavaScript for a first programming language
 ```
 
 ```js
@@ -234,7 +234,7 @@ I am teacher and  I love teaching.There is nothing as more rewarding as educatin
   * r'^substring' eg r'^love', a sentence which starts with a word love
   * r'[^abc] mean not a, not b, not c.
 * $: ends with
-  * r'substring$' eg r'love$', sentence ends with a word love
+  * r'substring$' eg  r'love$', sentence ends with a word love
 * *: zero or more times
   * r'[a]*' means a optional or it can occur many times.
 * +: one or more times
@@ -373,7 +373,7 @@ console.log(matches)  // ["e-mail", "email", "Email", "E-mail"]
 
 ### Quantifier in RegExp
 
-We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how ot use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
+We can specify the length of the substring we look for in a text, using a curly bracket. Let us see, how to use RegExp quantifiers. Imagine, we are interested in substring that their length are 4 characters
 
 ```js
 const txt = 'This regular expression example was made in December 6,  2019.'
