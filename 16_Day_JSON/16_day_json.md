@@ -435,7 +435,7 @@ console.log(txt) // text means JSON- because json is a string form of an object.
 
 ### Using a Filter Array with JSON.stringify
 
-Now, lets use the replacer as a filter. The user object has long list of keys but we are interested only in few of them. We put the keys we want to keep in array as show in the example and use it the place of the replacer.
+Now, lets use the replacer as a filter. The user object has long list of keys but we are interested only in few of them. We put the keys we want to keep in array as shown in the example and use it the place of the replacer.
 
 ```js
 const user = {
