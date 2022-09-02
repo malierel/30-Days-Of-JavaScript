@@ -175,14 +175,14 @@ List of events:
 
 - click - when the element clicked
 - dblclick - when the element double clicked
-- mouseenter - when the mouse point enter to the element
+- mouseenter - when the mouse pointer enter to the element
 - mouseleave - when the mouse pointer leave the element
 - mousemove - when the mouse pointer move on the element
 - mouseover - when the mouse pointer move on the element
-- mouseout -when the mouse pointer out from the element
-- input -when value enter to input field
-- change -when value change on input field
-- blur -when the element is not focused
+- mouseout - when the mouse pointer out from the element
+- input - when value enter to input field
+- change - when value change on input field
+- blur - when the element is not focused
 - keydown - when a key is down
 - keyup - when a key is up
 - keypress - when we press any key
@@ -323,7 +323,7 @@ We can access all the key numbers of the keyboard using different event listener
 
 ![Number Generator](./../images/projects/dom_min_project_number_generator_day_3.1.gif)
 
-1. Generating the keyboard code code using even listener. The image below.
+1. Generating the keyboard code code using event listener. The image below.
 
 ![Keyboard key](./../images/projects/dom_min_project_keycode_day_3.2.gif)
 
